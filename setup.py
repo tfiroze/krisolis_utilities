@@ -2,12 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name='krisolis_utilities',
-    version='0.1',
+    version='0.11',
     packages=find_packages(),
     install_requires=[
         'pandas',
         'numpy',
-        'math',
         'matplotlib',
         'seaborn'
         # Add any other dependencies here
